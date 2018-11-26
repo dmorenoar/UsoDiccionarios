@@ -14,6 +14,8 @@
 		FA779D4B21B08B3E00AA2AB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA779D4921B08B3E00AA2AB6 /* LaunchScreen.storyboard */; };
 		FA779D5621B08B3E00AA2AB6 /* UsoDiccionariosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA779D5521B08B3E00AA2AB6 /* UsoDiccionariosTests.swift */; };
 		FA779D6121B08B3E00AA2AB6 /* UsoDiccionariosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA779D6021B08B3E00AA2AB6 /* UsoDiccionariosUITests.swift */; };
+		FA779D6F21B08BB100AA2AB6 /* Zombie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA779D6E21B08BB100AA2AB6 /* Zombie.swift */; };
+		FA779D7121B08BF000AA2AB6 /* Horda.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA779D7021B08BF000AA2AB6 /* Horda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FA779D5C21B08B3E00AA2AB6 /* UsoDiccionariosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsoDiccionariosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA779D6021B08B3E00AA2AB6 /* UsoDiccionariosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsoDiccionariosUITests.swift; sourceTree = "<group>"; };
 		FA779D6221B08B3E00AA2AB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA779D6E21B08BB100AA2AB6 /* Zombie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zombie.swift; sourceTree = "<group>"; };
+		FA779D7021B08BF000AA2AB6 /* Horda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		FA779D3F21B08B3B00AA2AB6 /* UsoDiccionarios */ = {
 			isa = PBXGroup;
 			children = (
+				FA779D7221B08CB200AA2AB6 /* Model */,
 				FA779D4021B08B3B00AA2AB6 /* AppDelegate.swift */,
 				FA779D4221B08B3B00AA2AB6 /* ViewController.swift */,
 				FA779D4421B08B3B00AA2AB6 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				FA779D6221B08B3E00AA2AB6 /* Info.plist */,
 			);
 			path = UsoDiccionariosUITests;
+			sourceTree = "<group>";
+		};
+		FA779D7221B08CB200AA2AB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA779D6E21B08BB100AA2AB6 /* Zombie.swift */,
+				FA779D7021B08BF000AA2AB6 /* Horda.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA779D7121B08BF000AA2AB6 /* Horda.swift in Sources */,
+				FA779D6F21B08BB100AA2AB6 /* Zombie.swift in Sources */,
 				FA779D4321B08B3B00AA2AB6 /* ViewController.swift in Sources */,
 				FA779D4121B08B3B00AA2AB6 /* AppDelegate.swift in Sources */,
 			);
